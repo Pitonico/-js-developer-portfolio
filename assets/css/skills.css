@@ -1,0 +1,35 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.skills .tools ul li img {
+    width: 50px;
+    margin-right: .5rem;
+}
+
+.skills .personal ul {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .personal ul li {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px){
+   .skills { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+   }
+}

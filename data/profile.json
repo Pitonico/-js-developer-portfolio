@@ -6,7 +6,7 @@
   "phone": "(81) 998122222",
   "email": "dio_dgba@hotmail.com",
   "skills": {
-    "hardSkills": [
+    "hard_skills": [
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
@@ -32,12 +32,12 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
-    "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
+    "soft_skills": [
+      "Comunicação",
       "Flexibilidade",
-      "Organização"
+      "Organização",
+      "Trabalho em equipe",
+      "Comprometimento"
     ]
   },
   "languages": [
@@ -58,7 +58,7 @@
       "github": true
     }
   ],
-  "professionalExperience": [
+  "professional_experience": [
     {
       "name": "Arquiteto de software / S3 BANK",
       "period": "2022 - até o momento",

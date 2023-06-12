@@ -20,7 +20,7 @@
         "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/angular.png"
       },
       {
-        "name": "Javascript",
+        "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
@@ -47,12 +47,84 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/Pitonico/js-developer-pokedex",
+      "tools": [
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/css.png"
+        }
+      ],
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/Pitonico/js-developer-portfolio",
+      "tools": [
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/js.png"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/css.png"
+        }
+      ],
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página do PSN store",
+      "url": "https://github.com/Pitonico/angular_psnstore",
+      "tools": [
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/angular.png"
+        }
+      ],
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página estilo BuzzFeed",
+      "url": "https://github.com/Pitonico/angular_buzzfeed",
+      "tools": [
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/angular.png"
+        }
+      ],
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de envio de Tweet",
+      "url": "https://github.com/Pitonico/angular-tweet-clone",
+      "tools": [
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/angular.png"
+        }
+      ],
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de um Blog",
+      "url": "https://github.com/Pitonico/angular-blog",
+      "tools": [
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/Pitonico/js-developer-portfolio/main/data/imgs/angular.png"
+        }
+      ],
       "github": true
     }
   ],

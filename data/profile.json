@@ -40,10 +40,7 @@
       "Comprometimento"
     ]
   },
-  "languages": [
-    "Português BR (fluente)",
-    "Inglês (intermediário)"
-  ],
+  "languages": ["Português BR (fluente)", "Inglês (intermediário)"],
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
@@ -130,19 +127,9 @@
   ],
   "professional_experience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "TRON Controles Elétricos LTDA",
+      "period": "mai 2017 - jul 2018",
+      "description": "Produção de placas eletrônicas para relés e PDAs, com soldagem de componentes eletrônicos PTH e SMD em placas eletrônicas e montagem do produto final.Programação e Manipulação de Máquina CNC.Manipulação de planilhas eletrônicas com EXCEL."
     }
   ]
 }

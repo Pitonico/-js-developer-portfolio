@@ -8,18 +8,31 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    margin: 1rem 0;
+    margin: 1rem 0 0 1rem;
+}
+
+.skills .tools h3 {
+    margin-left: 1rem;
+}
+
+.skills .tools ul li{
+    margin-bottom: .5rem;
 }
 
 .skills .tools ul li img {
     width: 50px;
+    height: 50px;
     margin-right: .5rem;
 }
 
 .skills .personal ul {
-    margin: 1rem;
+    margin-left: 2rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.skills .personal h3 {
+    margin: 1rem;
 }
 
 .skills .personal ul li {

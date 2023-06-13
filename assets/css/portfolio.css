@@ -4,28 +4,55 @@
     flex-direction: column;
 }
 
-.portfolio li {
+.portfolio > li {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     align-items: start;
     margin-left: 1rem;
 }
 
-.portfolio li .title {
-    font-size: 1.25rem;
+.portfolio > li > h3 {
+    font-size: 1rem;
     font-weight: 700;
     margin-bottom: .5rem;
     display: flex;
     align-items: center;
 }
 
-.portfolio li .title.github::before {
-    content: "";
-    background-image: url('/assets/img/icons/github.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1rem;
-    height: 1rem;
-    margin-right: 0.5rem;
+.portfolio .tools {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.portfolio .tools > li {
+    list-style: none;
+    margin-right: .5rem;
+}
+
+.portfolio .tools > li > img {
+    width: 20px;
+    height: 20px;
+}
+
+.portfolio > li > a {
+    font-size: 0.80rem;
+}
+
+@media screen and (min-width: 850px) {
+    .portfolio > li > h3 {
+       font-size: 1.25rem;
+    }
+    .portfolio > li > a {
+        font-size: 1rem;
+    }
+    .portfolio > li > h3.github::before {
+        content: "";
+        background-image: url('../img/icons/github.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1rem;
+        height: 1rem;
+        margin-right: 0.5rem;
+    }
 }

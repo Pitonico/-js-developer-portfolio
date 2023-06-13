@@ -26,111 +26,77 @@
     <link rel="stylesheet" href="assets/css/portfolio.css" />
     <link rel="stylesheet" href="assets/css/experience.css" />
     <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
   </head>
   <body>
     <main class="main">
       <header class="header">
-        <img class="photo" src="assets/img/my_photo.jpg" alt="My Photo" />
+        <img id="profile.photo" class="photo" src="assets/img/empty_photo.png" alt="Foto de Perfil" />
 
-        <h1 class="title">Olá, <br />eu sou Diogo Gosson</h1>
+        <h1 class="title">Olá, <br />eu sou <span id="profile.name">Carregando...</span></h1>
 
         <div class="information">
-          <p class="job">Student</p>
-          <p class="location">Recife - PE</p>
+          <p id="profile.job" class="job">Carregando...</p>
+          <p id="profile.location" class="location">Carregando...</p>
           <p class="phone">
-            <a href="tel:(81) 9 9812-2222">(81) 9 9812-2222</a>
+            <a id="profile.phone" href="tel:(81) 9 9812-2222">Carregando...</a>
           </p>
           <p class="email">
-            <a href="mailto:dio_dgba@hotmail.com">dio_dgba@hotmail.com</a>
+            <a id="profile.email" href="mailto:dio_dgba@hotmail.com">Carregando...</a>
           </p>
         </div>
       </header>
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Idiomas</h2></button>
         <div class="content">
-          <ul class="languages">
-            <li>Português</li>
-            <li>Inglês</li>
+          <ul id="profile.languages" class="languages">
+            <li>Carregando...</li>
           </ul>
         </div>
       </section>
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Portfólio</h2></button>
         <div class="content">
-          <ul class="portfolio">
-            <li>
-              <h3 class="title github">Criando um App de lembrete</h3>
-              <a href="#" target="_blank">Site A</a>
-            </li>
-            <li>
-              <h3 class="title github">Criando um App de lembrete</h3>
-              <a href="#" target="_blank">Site B</a>
-            </li>
-            <li>
-              <h3 class="title github">Criando um App de lembrete</h3>
-              <a href="#" target="_blank">Site C</a>
-            </li>
+          <ul id="profile.portfolio" class="portfolio">
+            <li>Carregando...</li>
           </ul>
         </div>
       </section>
       <section class="acordeon">
         <button class="trigger" type="button"><h2>Experiência Profissional</h2></button>
         <div class="content">
-          <ul class="experience">
-            <li>
-              <h3 class="title">Front-End</h3>
-              <span class="period">Periodo</span>
-              <p>
-                O trecho padrão original de Lorem Ipsum, usado desde o século
-                XVI, está reproduzido abaixo para os interessados. Seções
-                1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero
-                também foram reproduzidas abaixo em sua forma exata original,
-                acompanhada das versões para o inglês da tradução feita por H.
-                Rackham em 1914.
-              </p>
-            </li>
-            <li>
-                <h3 class="title">Front-End</h3>
-                <span class="period">Periodo</span>
-                <p>
-                  O trecho padrão original de Lorem Ipsum, usado desde o século
-                  XVI, está reproduzido abaixo para os interessados. Seções
-                  1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero
-                  também foram reproduzidas abaixo em sua forma exata original,
-                  acompanhada das versões para o inglês da tradução feita por H.
-                  Rackham em 1914.
-                </p>
-              </li>
+          <ul id="profile.experience" class="experience">
+            <li>Carregando...</li>
           </ul>
         </div>
       </section>
-      <section class="acordeon open">
+      <section class="acordeon">
         <button class="trigger" type="button"><h2>Skills</h2></button>
         <div class="content">
             <div class="skills">
                 <section class="tools">
                   <h3>Ferramentas</h3>
-                  <ul>
-                      <li><img src="assets/img/icons/tools/nodejs02-svgrepo-com.svg" alt="NodeJS"></li>
-                      <li><img src="assets/img/icons/tools/angular-outlined-svgrepo-com.svg" alt="Angular"></li>
-                      <li><img src="assets/img/icons/tools/java-svgrepo-com.svg" alt="Java"></li>
-                      <li><img src="assets/img/icons/tools/spring-boot-svgrepo-com.svg" alt="Spring Boot"></li>
+                  <ul id="profile.skills.hard_skills">
+                      <li>Carregando...</li>
                   </ul>
                 </section>
                 <section class="personal">
                   <h3>Pessoal</h3>
-                  <ul>
-                      <li>Facilidade com tarefas práticas</li>
-                      <li>Comunicação</li>
-                      <li>Trabalho em equipe</li>
-                      <li>Organização</li>
-                      <li>Comprometimento com resultados</li>
+                  <ul id="profile.skills.soft_skills">
+                      <li>Carregando...</li>
                   </ul>
                 </section>
             </div>
         </div>
       </section>
+      <footer>
+        <a href="https://www.dio.me/">
+          <img src="assets/img/dio.svg" alt="DIO">
+        </a>
+      </footer>
     </main>
-    <script src="/assets/js/acordeon.js"></script>
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

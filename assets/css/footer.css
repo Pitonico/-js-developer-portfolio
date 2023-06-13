@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a img {
+    max-width: 120px;
+    padding: 1rem;
+}

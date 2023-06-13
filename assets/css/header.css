@@ -15,7 +15,7 @@
     content: '';
     width: 2rem;
     height: 2rem;
-    background-image: url('/assets/img/icons/header.svg');
+    background-image: url('../img/icons/header.svg');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -42,22 +42,24 @@
 
 .information p::before {
     margin-right: .5rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .information .job::before {
-    content: url('/assets/img/icons/job.svg');
+    content: url('../img/icons/job.svg');
 }
 
 .information .location::before {
-    content: url('/assets/img/icons/location.svg');
+    content: url('../img/icons/location.svg');
 }
 
 .information .phone::before {
-    content: url('/assets/img/icons/phone.svg');
+    content: url('../img/icons/phone.svg');
 }
 
 .information .email::before {
-    content: url('/assets/img/icons/email.svg');
+    content: url('../img/icons/email.svg');
 }
 
 @media screen and (min-width: 768px){
